@@ -1,4 +1,4 @@
- from flask import Flask, request
+from flask import Flask, request
 import requests
 import os
 from datetime import datetime
@@ -30,8 +30,6 @@ def webhook(key):
         "text": text,
         "parse_mode": "HTML"
     }
-    requests.post(url, json=payload)
+    r = requests.post(url, json=payload)
 
     return "OK", 200
-
-
