@@ -30,7 +30,8 @@ def webhook(key):
         "text": text,
         "parse_mode": "HTML"
     }
-    r = requests.post(url, json=payload)
+    requests.post(url, json=payload)
 
     return "OK", 200
+
 
