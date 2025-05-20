@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+Flask==2.3.2
+requests==2.31.0
+=======
+flask
+requests
+python-telegram-bot
+>>>>>>> a1d6ce2 (Первый коммит)
