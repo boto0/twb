@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 services:
   - type: web
     name: telegram-webhook
@@ -12,7 +11,7 @@ services:
         sync: false
       - key: SECRET_KEY
         sync: false
-=======
+
 services:
   - type: web
     name: telegram-webhook
@@ -26,4 +25,4 @@ services:
         sync: false
       - key: SECRET_KEY
         sync: false
->>>>>>> a1d6ce2 (Первый коммит)
+
