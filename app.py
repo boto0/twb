@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, request
 import requests
 import os
@@ -34,7 +33,7 @@ def webhook(key):
     r = requests.post(url, json=payload)
 
     return "OK", 200
-=======
+
 from flask import Flask, request
 import requests
 import os
@@ -70,4 +69,3 @@ def webhook(key):
     r = requests.post(url, json=payload)
 
     return "OK", 200
->>>>>>> a1d6ce2 (Первый коммит)
