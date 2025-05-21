@@ -6,7 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 BOT_TOKEN = os.environ.get("8182824052AAHKbzd-9bmKTmiJ7CiwI16HW5lCTUJYuzA")
-CHAT_ID = os.environ.get("1002516895861")
+CHAT_ID = os.environ.get("-1002516895861")
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 @app.route("/")
